@@ -69,18 +69,6 @@ def takeQuery():
             print("not recognized")
 
 
-"""
-def ask_from_bot():
-    query = textF.get()  #2query ????
-    answer_from_bot = bot.get_response(query)
-    msgs.insert(END, "you :" + query)
-    msgs.insert(END, "bot :" + str(answer_from_bot))
-    speaks(answer_from_bot)
-    textF.delete(0, END)
-
-"""
-
-
 def ask_from_bot():
     query = textF.get()
     answer_from_bot = bot.get_response(query)
